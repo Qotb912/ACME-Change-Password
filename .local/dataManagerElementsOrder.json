@@ -1,0 +1,131 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "NewPassword&Sequence_1",
+        "email&Sequence_1",
+        "password&Sequence_1",
+        "UserState&Sequence_1",
+        "test&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "loginState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/check states/CheckLogInSeq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "loggingState&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/acme/LogInSeq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboardFlag&Sequence_12",
+        "securePassword&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "email",
+        "password",
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/check states/CheckDashboardStateSeq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboardFlag&Sequence_16"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/acme/changepassword/Chang Password.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "secureNewPassword&Sequence_19",
+        "secureOldPassword&Sequence_19",
+        "userOptionsList&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "newPassword",
+        "oldPassword",
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/acme/changepassword/Navigate Change Password Seq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "changePasswordFlag&Sequence_26"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/check states/CheckChangePasswordState.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "changePasswordFlag&Sequence_30"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "userState"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/acme/LogOutSeq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/acme/BackToHomeSeq.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
